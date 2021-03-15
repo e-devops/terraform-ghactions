@@ -21,10 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      ARM_SUBSCRIPTION_ID: "0dbdfb42-de95-4a4e-b7a8-20fec03ef993"
-      ARM_TENANT_ID: '61272ac3-9f83-416d-8aa0-75d1dc3ce266'
       ARM_CLIENT_ID: '569875b1-5073-472c-9e89-4b80222602a4'
       ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENTSECRET }}
+      ARM_SUBSCRIPTION_ID: '0dbdfb42-de95-4a4e-b7a8-20fec03ef993'
+      ARM_TENANT_ID: '61272ac3-9f83-416d-8aa0-75d1dc3ce266'
       AZURE_STORAGE: 'terraformdemodevopsnew1'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
